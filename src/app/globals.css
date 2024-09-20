@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --deep-blue: #00008B;
+}
+
+body {
+  @apply antialiased;
+}
+
+.container {
+  @apply px-4 mx-auto max-w-7xl;
+}
+
+.page-section {
+  @apply py-16 md:py-24;
+}
+
+.section-title {
+  @apply text-3xl md:text-4xl font-bold mb-8 text-center;
+}
